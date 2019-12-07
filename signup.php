@@ -16,6 +16,7 @@
   echo "<input type=$type placeholder=$holder value='' name=$name $req=$val />";
   }
 	
+	<form action="/submit.php" method="POST">
 
   label("Username");
 	input("text", "Username", "usrnam", "minlength","2");
